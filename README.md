@@ -1,25 +1,72 @@
-# ExplainableAI
+# Explainable AI (XAI) 🔍🤖
 
-## Introduction to eXplainable AI
+A comprehensive, hands-on course reference and lab environment for **Explainable Artificial Intelligence (XAI)**, **Machine Learning Model Interpretability**, and **Responsible AI**.
 
-https://www.helmholtz-hida.de/en/lernen-vernetzen/data-science-course-portfolio/introduction-to-explainable-ai/
+---
 
-## Explainable AI (XAI)
+## 📋 Prerequisites
 
-https://www.coursera.org/specializations/explainable-artificial-intelligence-xai
+To successfully participate in the course and work through the notebooks, the following background knowledge is required:
 
-## Explainable Artificial Intelligence
+* **Mathematics:** Basic knowledge of **Statistics, Probability Theory**, and **Linear Algebra** (vectors, matrices, partial derivatives).
+* **Programming:** Proficiency in **Python** (NumPy, Pandas, Matplotlib, Seaborn) and experience with **Jupyter Notebooks**.
+* **Machine Learning:** Solid understanding of classical ML (Scikit-Learn) and a basic grasp of **Deep Learning** (PyTorch or TensorFlow/Keras).
 
-https://ki-campus.org/en/learning-opportunities/courses/explainable-artificial-intelligence
+---
 
-## Reliable and Interpretable AI
+## 1. 📖 Course Overview
 
-https://www.youtube.com/playlist?list=PLWjm4hHpaNg6c-W7JjNYDEC_kJK9oSp0Y
+This course provides a systematic, practical introduction to the explainability and interpretability of complex machine learning and deep learning models. It addresses the "black box" model problem and equips students with mathematical and applied methods to make model decisions transparent, understandable, and auditable.
 
-## Interpretable Machine Learning - A Guide for Making Black Box Models Explainable
+The accompanying GitHub repository serves as a central reference and workshop environment. Through interactive Jupyter Notebooks, participants explore theoretical concepts directly in Python and apply established XAI libraries (such as **SHAP**, **LIME**, and **Captum**) to tabular, image, and text datasets.
 
-https://christophm.github.io/interpretable-ml-book/
+---
 
-## Trustworthy Machine Learning - Winter Semester 2024/2025
+## 2. 📚 Detailed Course Syllabus
 
-https://www.youtube.com/playlist?list=PL05umP7R6ij3K8Wjeb0aqJeS1m1eeq9lN
+### 🔹 Module 1: Fundamentals & Intrinsic Interpretability (Intrinsic XAI)
+**Objective:** Build a foundational understanding of transparency, fairness, and trustworthy AI while utilizing inherently interpretable models.
+
+* **Introduction & Motivation:**
+  * The "Accuracy vs. Interpretability" tradeoff.
+  * Legal & ethical aspects (GDPR "Right to Explanation", EU AI Act).
+  * Taxonomy of XAI methods: *Model-Agnostic vs. Model-Specific*, *Local vs. Global*.
+* **Interpretable ML Models (Intrinsic Models):**
+  * Linear & Logistic Regression: Interpreting coefficients and odds ratios.
+  * Decision Trees: Decision rules and feature importance.
+  * Generalized Additive Models (GAMs) & Explainable Boosting Machines (EBMs).
+
+---
+
+### 🔹 Module 2: Model-Agnostic Post-Hoc XAI Methods
+**Objective:** Analyze complex black-box models independently of their architecture at both global and local levels.
+
+#### 2.1 Global Interpretability
+* **Permutation Feature Importance (PFI):** Measuring performance degradation upon feature permutation.
+* **Partial Dependence Plots (PDP) & Individual Conditional Expectation (ICE):** Visualizing feature effects and interactions.
+* **Accumulated Local Effects (ALE):** Correcting feature effect estimations under correlated input features.
+
+#### 2.2 Local Interpretability
+* **LIME (Local Interpretable Model-Agnostic Explanations):** Local linear approximations of black-box decisions.
+* **Shapley Values & SHAP (SHapley Additive exPlanations):**
+  * Game-theoretic foundations (Shapley values, efficiency, symmetry axioms).
+  * TreeSHAP, KernelSHAP, and DeepSHAP.
+  * Visualizations: Summary Plots, Force Plots, Waterfall Plots, and Dependence Plots.
+* **Counterfactual Explanations:** "What changes are required for the model to yield a different outcome?" (e.g., DiCE framework).
+
+---
+
+### 🔹 Module 3: Deep Learning Interpretability & Specialized XAI Approaches
+**Objective:** Understand specialized XAI techniques for neural networks (Computer Vision & NLP) and evaluate explanation quality.
+
+#### 3.1 Pixel & Attribution Methods for Neural Networks
+* **Gradient-Based Methods:** Saliency Maps, Integrated Gradients, SmoothGrad.
+* **Activation & Class-Based Methods:** Grad-CAM, HiResCAM, and Layer-wise Relevance Propagation (LRP).
+* **Attention-Based XAI:** Visualizing attention weights in Transformer architectures (NLP / Vision Transformers).
+
+#### 3.2 Validation, Pitfalls & Responsible AI
+* **Evaluating Explanations:** Fidelity, Robustness, and Comprehensibility metrics.
+* **Pitfalls & Vulnerabilities:** Sensitivity of XAI methods to adversarial attacks and input noise.
+* **Fairness & Bias Detection:** Identifying gender, demographic, or racial bias via feature attribution analysis.
+
+---
