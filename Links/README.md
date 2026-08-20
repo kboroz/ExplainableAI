@@ -23,3 +23,26 @@ https://christophm.github.io/interpretable-ml-book/
 ## Trustworthy Machine Learning - Winter Semester 2024/2025
 
 https://www.youtube.com/playlist?list=PL05umP7R6ij3K8Wjeb0aqJeS1m1eeq9lN
+
+##  Explainable AI by DeepFindr
+
+https://www.youtube.com/playlist?list=PLV8yxwGOxvvovp-j6ztxhF3QcKXT6vORU
+
+##  SHAP - A Data Odyssey
+
+https://www.youtube.com/playlist?list=PLqDyyww9y-1SJgMw92x90qPYpHgahDLIK
+
+## XAI for CV
+
+https://www.youtube.com/playlist?list=PLqDyyww9y-1QA4-o4tTAF_iD5cKCC1qEA
+
+## Explainable AI (XAI)
+
+https://www.youtube.com/playlist?list=PLqDyyww9y-1SwNZ-6CmvfXDAOdLS7yUQ4
+
+## Algorithm Fairness
+
+https://www.youtube.com/playlist?list=PLqDyyww9y-1Q0zWbng6vUOG1p3oReE2xS
+
+
+
