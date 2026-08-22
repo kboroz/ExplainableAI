@@ -44,5 +44,13 @@ https://www.youtube.com/playlist?list=PLqDyyww9y-1SwNZ-6CmvfXDAOdLS7yUQ4
 
 https://www.youtube.com/playlist?list=PLqDyyww9y-1Q0zWbng6vUOG1p3oReE2xS
 
+## Open source Python frameworks and libraries for Explainable AI
+
+https://mediafutureseu.github.io/explainableai.html
+
+## PyXAI (Python eXplainable AI)
+
+https://www.cril.univ-artois.fr/pyxai/
+
 
 
