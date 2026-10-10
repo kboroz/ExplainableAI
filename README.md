@@ -70,13 +70,17 @@ The accompanying GitHub repository serves as a central reference and workshop en
 * **Fairness & Bias Detection:** Identifying gender, demographic, or racial bias via feature attribution analysis.
 
 ---
+## 3. 🗓️ Weekly Schedule
 
-Week	Short title	Main topics
-1	XAI Foundations & Interpretable Models	Why explainability matters; interpretability–accuracy tradeoffs; XAI taxonomy; responsible AI and regulatory context; interpreting linear/logistic regression and decision trees.
-2	Global Explanations: Feature Effects	Permutation feature importance; PDP and ICE; ALE; feature interactions and the limitations of global plots.
-3	Local Explanations: LIME & SHAP	Local surrogate explanations; Shapley value intuition and properties; practical LIME and SHAP; comparing local explanations.
-4	Counterfactuals & Actionable Explanations	Counterfactual reasoning; DiCE; actionable changes, plausibility, and constraints; communicating explanations for individual predictions.
-5	Project Assignment Workshop	Introduce the project brief and deliverables; choose a dataset and prediction task; select a model and XAI methods; plan experiments, evaluation, and presentation.
-6	Explaining Neural Networks: Vision	Saliency maps; Integrated Gradients and SmoothGrad; Grad-CAM/HiResCAM; LRP; hands-on image-model explanations.
-7	Explaining Text Models & Attention	Attribution for text classifiers; attention visualizations and their limitations; applying suitable XAI methods to NLP or transformer models.
-8	Evaluating Explanations & Responsible AI	Fidelity, robustness, and comprehensibility; noise and adversarial vulnerabilities; using explanations to investigate bias; project presentations and discussion.
+| Week | Topic | Main Content |
+|:----:|-------|--------------|
+| **1** | **XAI Foundations & Interpretable Models** | Why explainability matters · Interpretability–accuracy tradeoffs · XAI taxonomy · Responsible AI & regulatory context · Interpreting linear/logistic regression and decision trees |
+| **2** | **Global Explanations: Feature Effects** | Permutation Feature Importance · PDP & ICE · ALE · Feature interactions and limitations of global plots |
+| **3** | **Local Explanations: LIME & SHAP** | Local surrogate explanations · Shapley value intuition and properties · Practical LIME & SHAP · Comparing local explanations |
+| **4** | **Counterfactuals & Actionable Explanations** | Counterfactual reasoning · DiCE · Actionable changes, plausibility, and constraints · Communicating explanations for individual predictions |
+| **5** | **Project Assignment Workshop** | Project brief and deliverables · Dataset and prediction task selection · Model and XAI method selection · Planning experiments, evaluation, and presentation |
+| **6** | **Explaining Neural Networks: Vision** | Saliency maps · Integrated Gradients & SmoothGrad · Grad-CAM / HiResCAM · LRP · Hands-on image-model explanations |
+| **7** | **Explaining Text Models & Attention** | Attribution for text classifiers · Attention visualizations and their limitations · XAI for NLP and transformer models |
+| **8** | **Evaluating Explanations & Responsible AI** | Fidelity, robustness, and comprehensibility · Noise and adversarial vulnerabilities · Using explanations to investigate bias · Project presentations and discussion |
+
+###
