@@ -1,16 +1,9 @@
 # 2026 Project Proposals
 
-Recent papers (2026) that can be used as student project proposals for this course.
-Each proposal should stay inside the Week 5 brief: one prediction task, one model,
+Recent papers (2026+) that can be used as project proposals for this course.
+Each proposal should stay have one prediction task, one model,
 one or two XAI methods already covered in the labs (LIME, SHAP, DiCE, Integrated
 Gradients, Grad-CAM, attention), one evaluation, and a short limitations discussion.
-
-The paper already listed in this folder remains in scope:
-
-- **Competition for attention predicts good-to-bad tipping in AI**
-  https://arxiv.org/abs/2602.14370
-
----
 
 ## How to use this list
 
